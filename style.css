@@ -63,10 +63,11 @@ section{
 form{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     height: 30%;
-    margin-left: 5%;
+    margin-left: 6%;
     justify-content: center;
+
 }
 
 label{
@@ -91,7 +92,15 @@ background: linear-gradient(145deg, #dea73b, #ffc647);
     text-transform: uppercase;
     font-size: 1.5em;
     font-weight: 700;
+
+}
+
+input:focus{
     box-shadow: inset 2px 1px 5px rgba(0, 0, 0, 0.623);
+    outline: none;
+}
+input:active{
+    border: none;
 }
 
 
